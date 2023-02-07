@@ -2,11 +2,11 @@
 
 int main()
 {
-    int a,b,sum;
-    a=10;
-    b=20;
-    sum=a+b;
+    int n=10;
+    // Print first 10 natural number
+    for(int i=1;i<=n;i++) {
+        printf("%d\n",i);
+    }
 
-    printf("%d",sum);
 
 }
